@@ -1,0 +1,26 @@
+{
+  "name": "biblioteca",
+  "version": "1.0.0",
+  "description": "API geenciamento do biblioteca",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "api",
+    "livros"
+  ],
+  "author": "Gui",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
